@@ -1,0 +1,79 @@
+.header-body nav {
+  position: fixed;
+  width: 100vw;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff40;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 15px -6px #424242;
+  top: 10px;
+  z-index: 999;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 7px 0;
+  }
+}
+
+nav img {
+  margin: 0 50px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.header-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header-ul {
+    flex-wrap: wrap;
+  }
+}
+.header-ul li {
+  text-transform: uppercase;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.header-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.header-ul li {
+  color: #000;
+  font-size: 1.2rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.header-ul li:before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 43%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.header-ul li:hover:before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 320px) {
+  .header-body nav {
+    min-width: 100vw;
+    width: auto;
+  }
+}
