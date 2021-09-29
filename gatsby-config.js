@@ -4,7 +4,7 @@ module.exports = {
     title: "brujalquimista",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+  
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
