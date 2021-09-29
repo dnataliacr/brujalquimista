@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import favicon from "../../images/icon.png";
 
 import Waves from "./footer/waves/Waves";
+import Footer from "./footer/Footer";
 
 
 const Layout = ({ children }) => {
@@ -40,6 +41,7 @@ const Layout = ({ children }) => {
   
       <main className={isPreloaded ? "preloaded" : "loaded"}>{children}</main>
       <Waves/>
+      <Footer/>
    
     </>
   );
