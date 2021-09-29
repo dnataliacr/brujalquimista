@@ -7,7 +7,7 @@ const GemoterapiaPage = () => {
   return (
     <>
       <Helmet>
-        <title>Brujalquimista | Gemoterapia</title>>
+        <title>Brujalquimista | Gemoterapia</title>
       </Helmet>
       <Layout />
     </>
