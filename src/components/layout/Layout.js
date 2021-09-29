@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import favicon from "../../images/icon.png";
 
+import './globalStyle.css'
 import Waves from "./footer/waves/Waves";
 import Footer from "./footer/Footer";
 
