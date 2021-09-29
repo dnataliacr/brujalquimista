@@ -7,6 +7,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <section className="footer">
+       <div style={{fontSize: '1.2rem', textAlign: 'center', padding: '20px 20px'}}>SITIO EN CONSTRUCCIÓN</div>
       <div className="footer-content">
         <div className="footer-text">
           <p>Centro de sanación holística | Montevideo</p>{" "}
@@ -32,6 +33,7 @@ const Footer = () => {
           />
         </div>
       </div>
+      <div>Nuestras terapias no sustituyen bajo ningún concepto indicaciones médicas</div>
       <span>
         Copyright 2021 | made with <FcLike className="footer__heart" /> by{" "}
         <a
