@@ -1,0 +1,105 @@
+.therapy-body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.therapy-container {
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #c4c4c4;
+  align-items: center;
+  margin: 50px auto;
+}
+.therapy-img {
+  margin-top: 200px;
+  background-image: url("../../assets/4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+.therapy-container h1 {
+  text-transform: uppercase;
+  color: #c4c4c4;
+  font-size: 70px;
+  margin: 50px auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.therapy-text {
+  line-height: 2rem;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.therapy-text > h3 {
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Josefin Sans", sans-serif;
+}
+.therapy-text > h2 {
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Josefin Sans", sans-serif;
+}
+.therapy-text > h4 {
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+hr {
+  width: 50%;
+  text-align: center;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c4c4c4;
+  margin: 1em 0;
+  padding: 0;
+}
+.therapy-text > p {
+  padding: 20px 5px;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+@media screen and (max-width: 876px) {
+  .therapy-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 776px) {
+  .therapy-img {
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 576px) {
+  .therapy-img {
+    margin-top: 250px;
+  }
+
+  .therapy-container h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 486px) {
+  .therapy-container h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .therapy-container h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 296px) {
+  .therapy-container h1 {
+    font-size: 30px;
+  }
+}
