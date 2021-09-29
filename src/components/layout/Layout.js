@@ -3,10 +3,9 @@ import { Helmet } from "react-helmet";
 
 import favicon from "../../images/icon.png";
 
-import './globalStyle.css'
+import "./globalStyle.css";
 import Waves from "./footer/waves/Waves";
 import Footer from "./footer/Footer";
-
 
 const Layout = ({ children }) => {
   const [isPreloaded, setIsPreloaded] = useState(true);
@@ -20,7 +19,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <title>Brujalquimista | Sanación holística </title>
         <link rel="icon" href={favicon} />
         <meta name="description" content="Terapias holisticas en Montevideo" />
         <meta
@@ -39,11 +37,10 @@ const Layout = ({ children }) => {
           rel="stylesheet"
         />
       </Helmet>
-  
+
       <main className={isPreloaded ? "preloaded" : "loaded"}>{children}</main>
-      <Waves/>
-      <Footer/>
-   
+      <Waves />
+      <Footer />
     </>
   );
 };
