@@ -7,7 +7,9 @@ import Layout from "../components/layout/Layout";
 const IndexPage = () => {
   return (
     <>
-
+      <Helmet>
+        <title>Brujalquimista | Sanación holística </title>
+      </Helmet>
       <Layout />
     </>
   );
