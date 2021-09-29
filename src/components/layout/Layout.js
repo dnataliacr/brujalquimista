@@ -3,6 +3,9 @@ import { Helmet } from "react-helmet";
 
 import favicon from "../../images/icon.png";
 
+import Waves from "./footer/waves/Waves";
+
+
 const Layout = ({ children }) => {
   const [isPreloaded, setIsPreloaded] = useState(true);
 
@@ -36,6 +39,7 @@ const Layout = ({ children }) => {
       </Helmet>
   
       <main className={isPreloaded ? "preloaded" : "loaded"}>{children}</main>
+      <Waves/>
    
     </>
   );
