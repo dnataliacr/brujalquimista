@@ -1,0 +1,116 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer-tex {
+    width: 40%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-map {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-map > iframe {
+    width: 60%;
+    height: 150px;
+    border: none;
+  }
+  
+  .footer-text > p{
+    padding: 1rem 80px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  
+  .footer-text   a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+  }
+  
+  .footer > span {
+    padding: 1rem 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .footer > span > a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  .whatsapp {
+    width: 80px;
+    height: 80px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+  
+    border-radius: 50%;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f0f0f0, #c4c4c4);
+    box-shadow: 15px 15px 45px #848484, -20px -20px 60px #ffffff;
+    transition: all 0.2s linear;
+  }
+  .whatsapp:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer__heart {
+    animation: beat 2s infinite;
+  }
+  @keyframes beat {
+    0% {
+      tranform: scale(1);
+    }
+    50% {
+      transform: scale(0.7);
+    }
+  }
+  
+  @media screen and (max-width: 687px) {
+    .footer-content {
+      flex-direction: column;
+    }
+    .footer-map {
+      width: 100%;
+    }
+    .footer-map > iframe {
+      width: 90%;
+    }
+    .footer-tex {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 387px) {
+  
+    .footer-text  a {
+    
+      font-size: .8rem;
+    }
+    
+  .footer-text > p{
+    font-size: .9rem;
+  
+  }
+  
+  }
+  
