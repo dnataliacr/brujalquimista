@@ -1,5 +1,5 @@
 import React from "react";
-import "./terapy.css";
+import "./therapy.css";
 
 const Therapy = ({ content }) => {
   return (
