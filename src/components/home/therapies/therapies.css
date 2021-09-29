@@ -1,0 +1,133 @@
+.therapies-body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(242, 242, 242);
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.therapies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.therapies-card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.5),
+    -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 30px;
+}
+.reiki {
+  background-image: url("../../../images/b1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gemoterapia {
+  background-image: url("../../../images/b3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.reflexologia {
+  background-image: url("../../../images/b2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.therapies-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.therapies-card:hover .therapies-box {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.therapies-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.therapies-content h2 {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  font-family: "Josefin Sans", sans-serif;
+}
+.therapies-card:hover .therapies-content > h2 {
+  color: rgba(0, 0, 0, 0.4);
+}
+.therapies-content > h3 {
+  font-size: 1.8rem;
+  color: #777;
+  z-index: 1;
+  transition: 0.4;
+}
+
+.therapies-content > p {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: 0.5s;
+  padding-top: 350px;
+}
+
+@media screen and (max-width: 401px) {
+  .therapies-card {
+    min-width: 240px;
+    height: 360px;
+  }
+  .therapies-content > p {
+    padding-top: 260px;
+    font-size: 0.9rem;
+  }
+  .therapies-content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 285px) {
+  .therapies-card {
+    min-width: 200px;
+    height: 320px;
+  }
+  .therapies-content > p {
+    padding-top: 200px;
+    font-size: 0.8rem;
+  }
+  .therapies-content h2 {
+    text-align: center;
+    top: 10px;
+
+    font-size: 1.1rem;
+  }
+}
