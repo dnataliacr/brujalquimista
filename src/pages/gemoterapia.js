@@ -24,7 +24,7 @@ const GemoterapiaPage = () => {
   }
 `);
 
-const content = data.allMarkdownRemark.edges[1].node
+const content = data.allMarkdownRemark.edges[0].node
 
   return (
     <>

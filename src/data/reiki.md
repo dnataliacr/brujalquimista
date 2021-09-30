@@ -25,7 +25,7 @@ y aumentar nuestros niveles de concentración.
 Se trabaja mediante la *imposición de manos*, donde el terapeuta colocará las manos \
 sobre puntos estratégicos del cuerpo del paciente y canalizará la su propia energía interior \
 y la energía vital del universo hacia donde la persona lo necesite, encontrando que fue lo que causó \
-el desequilibrio, para luego tratarlo y remediarlo.
+el desequilibrio, para así tratarlo y remediarlo. \
 Las sesiones suelen durar de cuarenta a sesenta minutos, 
 se realizan en un ambiente relajado, con musica suave y aromas.
 

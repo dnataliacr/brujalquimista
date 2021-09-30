@@ -21,7 +21,7 @@ const ReikiPage = () => {
       }
     }
   `);
-  const content = data.allMarkdownRemark.edges[0].node;
+  const content = data.allMarkdownRemark.edges[2].node;
   return (
     <>
       <Helmet>

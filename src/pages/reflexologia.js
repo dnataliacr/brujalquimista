@@ -22,7 +22,7 @@ const ReflexologiaPage = () => {
     }
   `);
 
-  const content = data.allMarkdownRemark.edges[2].node;
+  const content = data.allMarkdownRemark.edges[1].node;
   return (
     <>
       <Helmet>
