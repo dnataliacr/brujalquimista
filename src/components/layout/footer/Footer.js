@@ -33,7 +33,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div>Nuestras terapias no sustituyen bajo ningún concepto indicaciones médicas</div>
+      <div style={{padding: '10px', textAlign: 'center'}}>Nuestras terapias no sustituyen bajo ningún concepto indicaciones médicas</div>
       <span>
         Copyright 2021 | made with <FcLike className="footer__heart" /> by{" "}
         <a
