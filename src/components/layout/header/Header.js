@@ -4,12 +4,13 @@ import { Link } from "gatsby";
 import logo from "../../../images/logo.png";
 import "./header.css";
 
-import Modal from './Modal'
+import {Modal} from './Modal'
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
       setShowModal(prev => !prev)
+      console.log(showModal)
   }
   return (
     <div className="header-body">
@@ -48,7 +49,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <Modal/>
+      <Modal showModal={showModal} setShowModal={setShowModal}/>
     </div>
   );
 };
