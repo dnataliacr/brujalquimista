@@ -1,17 +1,17 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import logo from "../../../images/logo.png";
 import "./header.css";
 
-import {Modal} from './Modal'
+import { Modal } from "./Modal";
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
-      setShowModal(prev => !prev)
-      console.log(showModal)
-  }
+    setShowModal((prev) => !prev);
+    console.log(showModal);
+  };
   return (
     <div className="header-body">
       <nav>
@@ -37,19 +37,16 @@ const Header = () => {
               gemoterapia
             </Link>
           </li>
-          <li>
-            <Link
-              to="/contacto"
-              className="header-link"
-              style={{ color: "#000" }}
-              onClick={openModal}
-            >
-              ¡agendate!{" "}
-            </Link>
+          <li
+            className="header-link"
+            style={{ color: "#000" }}
+            onClick={openModal}
+          >
+            ¡agendate!{" "}
           </li>
         </ul>
       </nav>
-      <Modal showModal={showModal} setShowModal={setShowModal}/>
+      <Modal showModal={showModal} setShowModal={setShowModal} />
     </div>
   );
 };
