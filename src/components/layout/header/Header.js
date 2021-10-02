@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "gatsby";
 
 import logo from "../../../images/logo.png";
 import "./header.css";
 
 const Header = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+      setShowModal(prev => !prev)
+  }
   return (
     <div className="header-body">
       <nav>
