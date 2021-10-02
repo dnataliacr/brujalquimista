@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import logo from "../../../images/logo.png";
 import "./header.css";
 
+import Modal from './Modal'
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -40,12 +41,14 @@ const Header = () => {
               to="/contacto"
               className="header-link"
               style={{ color: "#000" }}
+              onClick={openModal}
             >
               ¡agendate!{" "}
             </Link>
           </li>
         </ul>
       </nav>
+      <Modal/>
     </div>
   );
 };
