@@ -74,11 +74,7 @@ hr {
     width: 90%;
   }
 }
-@media screen and (max-width: 776px) {
-  .therapy-img {
-    background-size: cover;
-  }
-}
+
 @media screen and (max-width: 576px) {
   .therapy-img {
     margin-top: 250px;
@@ -86,6 +82,11 @@ hr {
 
   .therapy-container h1 {
     font-size: 50px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .therapy-img {
+    background-size: cover;
   }
 }
 @media screen and (max-width: 486px) {
