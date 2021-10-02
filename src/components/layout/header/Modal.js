@@ -1,7 +1,8 @@
-import React, { useRef, useEffect, useCallback } from "react";
+import React, { useRef, useEffect, useCallback, useState } from "react";
 import "./modal.css";
 export const Modal = ({ showModal, setShowModal }) => {
-  const modalRef = useRef();
+    const modalRef = useRef();
+
 
   const closeModal = (e) => {
     if (modalRef.current === e.target) {
@@ -35,8 +36,8 @@ export const Modal = ({ showModal, setShowModal }) => {
             >
               <label>
                 {" "}
-                ¡Completa el formulario y nos pondremos en contacto para agendar
-                una consulta!{" "}
+                Completa el formulario y nos pondremos en contacto para agendar
+                una consulta{" "}
               </label>
               <br />
               <input type="email" placeholder="Correo electronico" />
@@ -45,7 +46,7 @@ export const Modal = ({ showModal, setShowModal }) => {
               <input type="name" placeholder="Nombre" name="name" required />
 
               <br />
-              <textarea id="mensaje" name="Mensaje" rows="4" cols="50">
+              <textarea id="mensaje" name="Mensaje" rows="4" cols="50"  >
 
               </textarea>
               <input type="submit" value="enviar" />
