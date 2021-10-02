@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div style={{padding: '10px', textAlign: 'center'}}>Nuestras terapias no sustituyen bajo ningún concepto indicaciones médicas</div>
       <span>
-        Copyright 2021 | made with <FcLike className="footer__heart" /> by{" "}
+        Copyright 2021 | made by{" "}
         <a
           href="https://www.nataliacabral.com"
           target="_blank"
