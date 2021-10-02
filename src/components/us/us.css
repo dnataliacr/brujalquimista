@@ -1,0 +1,142 @@
+.us-body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto 150px auto;
+}
+.us-body > h1 {
+  text-transform: uppercase;
+  color: #c4c4c4;
+  font-size: 70px;
+  margin: 50px auto;
+  font-family: "Josefin Sans", sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.us-intro p {
+  margin-top: 20px;
+  text-align: left;
+  width: 80%;
+  line-height: 1.7rem;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 10px 50px;
+}
+.us-intro {
+  padding-bottom: 50px;
+}
+.us-intro img {
+  width: 650px;
+  height: 350px;
+  padding-left: 50px;
+}
+.box {
+  flex: 2;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 1s ease;
+  box-shadow: inset -3px 7px 36px -9px rgba(0, 0, 0, 0.1);
+  padding: 50px 10px;
+}
+.box:first-child {
+  background-color: rgb(242, 242, 242);
+}
+
+.box > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  transition: transform 1s ease;
+}
+.box > h2 {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 3px;
+  margin: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.box > h3 {
+  font-family: "Josefin Sans";
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.box > p {
+  margin-top: 20px;
+  text-align: center;
+  width: 90%;
+  line-height: 1.7rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.box:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+  box-shadow: -3px 7px 36px -9px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover img {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1052px) {
+  .us-intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 746px) {
+    .us-body h1 {
+        font-size: 60px;
+      }
+  }
+@media screen and (max-width: 952px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .us-intro img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 612px) {
+  .us-body h1 {
+    font-size: 50px;
+  }
+  .us-body {
+    margin: 250px auto 150px auto;
+  }
+  .us-intro img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .us-body > h1 {
+    font-size: 40px;
+  }
+  .us-intro p {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 378px) {
+  .us-body > h1 {
+    font-size: 30px;
+  }
+  .us-intro img {
+    height: 150px;
+  }
+  .box > h2 {
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 308px) {
+  .us-body > h1 {
+    font-size: 25px;
+  }
+
+  .us-body {
+    margin: 350px auto 150px auto;
+  }
+}
