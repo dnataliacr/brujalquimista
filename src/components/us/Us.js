@@ -40,7 +40,7 @@ const Us = () => {
       <h2>Patricia Jaureguiberry</h2>
       <h3>Reikista</h3>
       <div
-          dangerouslySetInnerHTML={{ __html: content[3].node.html }}
+          dangerouslySetInnerHTML={{ __html: content[4].node.html }}
        
         />
     </div>
@@ -49,7 +49,7 @@ const Us = () => {
       <h2>Corina Pejo</h2>
       <h3>Reflexóloga y masajista</h3>
       <div
-          dangerouslySetInnerHTML={{ __html: content[4].node.html }}
+          dangerouslySetInnerHTML={{ __html: content[3].node.html }}
        
         />
     </div>
