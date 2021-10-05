@@ -17,7 +17,7 @@
   margin: 50px auto;
 }
 .therapy-img {
-  margin-top: 200px;
+  margin-top: 150px;
   background-image: url("../../assets/banner.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -29,7 +29,7 @@
   text-transform: uppercase;
   color: #c4c4c4;
   font-size: 70px;
-  margin: 50px auto;
+  margin: 50px auto 10px auto;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -65,7 +65,7 @@ hr {
   padding: 0;
 }
 .therapy-text > p {
-  padding: 20px 5px;
+  padding: 10px 5px;
   color: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
