@@ -47,9 +47,9 @@ const Us = () => {
     <div className="box">
       <img src={ph2} alt="imagen" />
       <h2>Corina Pejo</h2>
-      <h3>Reflexologa y masajista</h3>
+      <h3>Reflexóloga y masajista</h3>
       <div
-          dangerouslySetInnerHTML={{ __html: content[1].node.html }}
+          dangerouslySetInnerHTML={{ __html: content[4].node.html }}
        
         />
     </div>
