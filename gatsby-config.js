@@ -4,7 +4,6 @@ module.exports = {
     title: "brujalquimista",
   },
   plugins: [
-  
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -29,7 +28,22 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data/`,
-        ignore: [`**/\.*`], 
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/data/us-data`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/us-data`,
+        ignore: [`**/\.*`],
       },
     },
   ],
