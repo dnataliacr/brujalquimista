@@ -20,7 +20,6 @@ const Us = () => {
   }
   `)
   const content = data.allMarkdownRemark.edges
-  console.log(content)
   return  <div className="us-body">
   <h1>Sobre nosotras</h1>
   <div className="us-intro" style={{ display: "flex" }}>
@@ -29,7 +28,7 @@ const Us = () => {
     </div>
     <div>
     <div
-          dangerouslySetInnerHTML={{ __html: content[5].node.html }}
+          dangerouslySetInnerHTML={{ __html: content[4].node.html }}
        
         />
     </div>
@@ -39,8 +38,8 @@ const Us = () => {
       <img src={ph1} alt="imagen" />
       <h2>Patricia Jaureguiberry</h2>
       <h3>Reikista</h3>
-      <div
-          dangerouslySetInnerHTML={{ __html: content[4].node.html }}
+      <div style={{width: '100%'}}
+          dangerouslySetInnerHTML={{ __html: content[5].node.html }}
        
         />
     </div>
@@ -48,7 +47,7 @@ const Us = () => {
       <img src={ph2} alt="imagen" />
       <h2>Corina Pejo</h2>
       <h3>Reflexóloga y masajista</h3>
-      <div
+      <div style={{width: '100%'}}
           dangerouslySetInnerHTML={{ __html: content[3].node.html }}
        
         />

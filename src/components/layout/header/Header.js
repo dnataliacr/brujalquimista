@@ -10,7 +10,6 @@ const Header = () => {
 
   const openModal = () => {
     setShowModal((prev) => !prev);
-    console.log(showModal);
   };
   return (
     <div className="header-body">
