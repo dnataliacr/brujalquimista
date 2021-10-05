@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="footer">
       <div className="footer-content">
         <div className="footer-text">
-          <p>Centro de sanación holística | Montevideo</p>{" "}
+          <p>Centro de sanación holística</p> <p>Montevideo</p>{" "}
           <a
             href="mailto:hola@brujalquimista.com"
             target="_blank"
