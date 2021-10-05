@@ -37,6 +37,12 @@ const Header = () => {
               gemoterapia
             </Link>
           </li>
+          <li>
+            <Link to="/nosotras" className="header-link">
+              {" "}
+              nosotras
+            </Link>
+          </li>
           <li
             className="header-link"
             style={{ color: "#000" }}
