@@ -31,7 +31,6 @@
 }
 
 .footer-text > p {
-  
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
   line-height: 1.5rem;
@@ -65,8 +64,16 @@
 
   border-radius: 50%;
   border-radius: 50%;
-  background: linear-gradient(145deg, #f0f0f0, #c4c4c4);
+  background: rgb(240, 240, 240);
+  background: linear-gradient(
+    145deg,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(196, 196, 196, 1) 100%
+  );
   box-shadow: 15px 15px 45px #848484, -20px -20px 60px #ffffff;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 15px 15px 45px #848484, -20px -20px 60px #ffffff;
+
   transition: all 0.2s linear;
 }
 .whatsapp:hover {
