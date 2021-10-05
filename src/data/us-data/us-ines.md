@@ -4,5 +4,5 @@ Después de ser mama tuve muchos cambios totales en mi vida, \
  ¡pero me gustó tanto que no quise quedarme afuera de ese mundo! \
  Comencé por el camino de la  masoterapia para luego especializarme \
  en el tratamiento de zonas reflejas. \
-Después de dar clases en una intuición y compartir con varios grupos hermosos, \
- me animé junto a Patricia a iniciar este nuevo proyecto.
+Después de dar clases en una instición y compartir \
+con varios grupos hermosos, me animé junto a Patricia a iniciar este nuevo proyecto.
