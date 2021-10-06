@@ -38,6 +38,8 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
+   
+
       </Helmet>
       <Header />
       <main className={isPreloaded ? "preloaded" : "loaded"}>{children}</main>
